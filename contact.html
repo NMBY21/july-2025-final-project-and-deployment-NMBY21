@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of Betelihem Mengist Nega — Software Engineer" />
+    <title>Contact · Betelihem Mengist Nega</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="BM logo" />
+            <span>Betelihem</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav id="siteNav" class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a class="" href="index.html">Home</a></li>
+                <li><a class="" href="about.html">About</a></li>
+                <li><a class="" href="experience.html">Experience</a></li>
+                <li><a class="" href="projects.html">Projects</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        </nav>
+    </header>
+    <main>
+
+        <section class="page-hero reveal">
+            <h1>Contact</h1>
+            <p>Interested in collaborating or have an opportunity? Let’s talk!</p>
+        </section>
+
+        <section class="contact-grid reveal">
+            <div class="card">
+                <h2>Direct</h2>
+                <ul class="contact-list">
+                    <li>📧 <a href="mailto:betelihemmengist21@gmail.com">betelihemmengist21@gmail.com</a></li>
+                    <li>📞 <a href="tel:+251948256901">+251 948 256 901</a></li>
+                    <li>📍 Addis Ababa, Ethiopia</li>
+                </ul>
+            </div>
+            <form id="contactForm" class="card" novalidate>
+                <h2>Send a Message</h2>
+                <label>Full Name
+                    <input type="text" name="name" placeholder="Your name" required />
+                </label>
+                <label>Email
+                    <input type="email" name="email" placeholder="you@example.com" required />
+                </label>
+                <label>Message
+                    <textarea name="message" rows="5" placeholder="How can I help?" required></textarea>
+                </label>
+                <div class="form-actions">
+                    <button class="btn primary" type="submit">Send</button>
+                    <span id="formStatus" role="status" aria-live="polite"></span>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <p>© 2025 Betelihem Mengist Nega · Addis Ababa, Ethiopia · <a
+                href="mailto:betelihemmengist21@gmail.com">betelihemmengist21@gmail.com</a></p>
+        <p>
+            <a href="https://github.com/NMBY21" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/betelihem-mengist-835346232/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://betelihem.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

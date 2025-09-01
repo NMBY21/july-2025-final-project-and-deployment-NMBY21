@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of Betelihem Mengist Nega — Software Engineer" />
+    <title>Projects · Betelihem Mengist Nega</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="BM logo" />
+            <span>Betelihem</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav id="siteNav" class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a class="" href="index.html">Home</a></li>
+                <li><a class="" href="about.html">About</a></li>
+                <li><a class="" href="experience.html">Experience</a></li>
+                <li><a class="active" href="projects.html">Projects</a></li>
+                <li><a class="" href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero reveal">
+            <h1>Projects</h1>
+            <p>A selection of work across web and mobile — focusing on usability, performance, and real‑world value.</p>
+        </section>
+
+        <section class="project-cards reveal">
+            <article id="book-app" class="project-card">
+                <img src="images/project1.svg" alt="Book sharing & recommendation app" />
+                <div class="info">
+                    <h3>Book Sharing & Recommendation (MERN)</h3>
+                    <p>Full‑stack application with authentication, CRUD for books, and a recommendation flow.</p>
+                    <ul class="tags">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                    </ul>
+                    <div class="actions">
+                        <a class="btn small" href="#" aria-disabled="true">Live (soon)</a>
+                        <a class="btn small ghost" href="#" aria-disabled="true">Code (private)</a>
+                    </div>
+                </div>
+            </article>
+
+            <article id="inventory-saas" class="project-card">
+                <img src="images/project2.svg" alt="Inventory SaaS" />
+                <div class="info">
+                    <h3>SaaS Inventory Management</h3>
+                    <p>Track stock levels, movements, and generate insights with clean admin dashboards.</p>
+                    <ul class="tags">
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
+                        <li>Charts</li>
+                    </ul>
+                    <div class="actions">
+                        <a class="btn small" href="#" aria-disabled="true">Live (soon)</a>
+                        <a class="btn small ghost" href="#" aria-disabled="true">Code (private)</a>
+                    </div>
+                </div>
+            </article>
+
+            <article id="class-projects" class="project-card">
+                <img src="images/project3.svg" alt="Class projects" />
+                <div class="info">
+                    <h3>Selected Class Projects</h3>
+                    <p>Highlights across web, mobile, artificial intelligence, and machine learning.</p>
+                    <ul class="tags">
+                        <li>Flutter</li>
+                        <li>ML</li>
+                        <li>Web</li>
+                    </ul>
+                    <div class="actions">
+                        <a class="btn small" href="#" aria-disabled="true">Live (various)</a>
+                        <a class="btn small ghost" href="#" aria-disabled="true">Code (various)</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <p>© 2025 Betelihem Mengist Nega · Addis Ababa, Ethiopia · <a
+                href="mailto:betelihemmengist21@gmail.com">betelihemmengist21@gmail.com</a></p>
+        <p>
+            <a href="https://github.com/NMBY21" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/betelihem-mengist-835346232/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://betelihem.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

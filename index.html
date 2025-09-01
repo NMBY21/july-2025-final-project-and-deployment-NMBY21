@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of Betelihem Mengist Nega — Software Engineer" />
+    <title>Home · Betelihem Mengist Nega</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="BM logo" />
+            <span>Betelihem</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav id="siteNav" class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="" href="about.html">About</a></li>
+                <li><a class="" href="experience.html">Experience</a></li>
+                <li><a class="" href="projects.html">Projects</a></li>
+                <li><a class="" href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        </nav>
+    </header>
+    <main>
+
+        <section class="hero reveal">
+            <div class="hero-copy">
+                <h1>Hi, I'm <span class="accent">Betelihem Mengist Nega</span></h1>
+                <p class="subtitle">Software Engineer — building reliable, user‑centric products with
+                    <strong>MERN</strong>, <strong>Django</strong>, and <strong>Flutter</strong>.</p>
+                <div class="cta-row">
+                    <a class="btn primary" href="projects.html">View Projects</a>
+                    <a class="btn ghost" href="contact.html">Get In Touch</a>
+                </div>
+                <ul class="quick-facts">
+                    <li>📍 Addis Ababa, Ethiopia</li>
+                    <li>🎓 BSc, Software Engineering (AAiT)</li>
+                    <li>⚙️ React · Node · Express · Django · Flutter · SQL</li>
+                </ul>
+            </div>
+            <div class="hero-art">
+                <img src="images/logo.svg" alt="Brand emblem" />
+            </div>
+        </section>
+
+        <section class="highlights reveal">
+            <h2>What I Do</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Full‑Stack Web</h3>
+                    <p>MERN and Django apps with authentication, dashboards, and APIs.</p>
+                </article>
+                <article class="card">
+                    <h3>Mobile Apps</h3>
+                    <p>Flutter applications with clean architecture and responsive UI.</p>
+                </article>
+                <article class="card">
+                    <h3>Data & AI</h3>
+                    <p>Coursework & projects in machine learning and data analysis.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured reveal">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <a class="project" href="projects.html#book-app">
+                    <img src="images/project1.svg" alt="Book sharing app preview" />
+                    <div class="project-meta">
+                        <h3>Book Sharing & Recommendation (MERN)</h3>
+                        <span class="tags">MongoDB · Express · React · Node</span>
+                    </div>
+                </a>
+                <a class="project" href="projects.html#inventory-saas">
+                    <img src="images/project2.svg" alt="Inventory SaaS preview" />
+                    <div class="project-meta">
+                        <h3>SaaS Inventory Management</h3>
+                        <span class="tags">Django · PostgreSQL · Charts</span>
+                    </div>
+                </a>
+                <a class="project" href="projects.html#class-projects">
+                    <img src="images/project3.svg" alt="Class projects preview" />
+                    <div class="project-meta">
+                        <h3>Selected Class Projects</h3>
+                        <span class="tags">Flutter · ML · Web</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <p>© 2025 Betelihem Mengist Nega · Addis Ababa, Ethiopia · <a
+                href="mailto:betelihemmengist21@gmail.com">betelihemmengist21@gmail.com</a></p>
+        <p>
+            <a href="https://github.com/NMBY21" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/betelihem-mengist-835346232/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://betelihem.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
